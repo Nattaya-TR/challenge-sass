@@ -1,0 +1,28 @@
+$padding : 16px;
+
+body:target {
+  color: #ebf3eb;
+
+  text {
+    color: #ea3f3f;
+  }
+
+  h1 {
+    @extend text;
+    padding: $padding;
+  }
+
+  h2 {
+    @extend text;
+    padding: $padding;
+  }
+
+  h6 {
+    @extend text;
+    padding: $padding;
+  }
+
+  .message, code {
+    color: #333333;
+  }
+}

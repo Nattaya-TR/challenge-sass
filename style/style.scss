@@ -1,5 +1,6 @@
-$padding: 16px;
-$footer-padding : $padding + 16px;
+@use "red";
+
+$padding: 8px;
 
 $top : 10px;
 $left : 10px;
@@ -83,7 +84,7 @@ h1 {
 h6 {
   text-align: center;
   font-size: 2em;
-  padding: $footer-padding;
+  padding: ($padding * 2);
   margin-bottom: 0;
 }
 
